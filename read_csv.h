@@ -11,15 +11,16 @@
 std::vector<m5Data> read_csv(std::string filename)
 {
     std::vector<m5Data> vect_m5d;
-    io::CSVReader<8> in(filename);
+    io::CSVReader<9> in(filename);
     in.read_header(io::ignore_extra_column,"Property Number", "Description", 
-                   "Source Location", "Destination Location", "Source Name",
+                   "Serial Number","Source Location", "Destination Location", "Source Name",
                    "Source Date", "Destination Name", "Destination Date");
-    std::string propNum, desc, srcLoc, destLoc, srcName, srcDate, destName, destDate;
-    while(in.read_row(propNum, desc, srcLoc, destLoc, srcName, srcDate, destName, destDate)){
+    std::string propNum, desc, serialNum, srcLoc, destLoc, srcName, srcDate, destName, destDate;
+    while(in.read_row(propNum, desc, serialNum,srcLoc, destLoc, srcName, srcDate, destName, destDate)){
         m5Data m5d;
         m5d.propNum = propNum;
         m5d.description = desc;
+        m5d.serialNum = serialNum;
         m5d.sourceLoc = srcLoc;
         m5d.destLoc = destLoc;
         m5d.sourceSign.Name = srcName;
