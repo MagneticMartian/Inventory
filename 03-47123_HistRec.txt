@@ -1,7 +1,7 @@
 Entry: 
 Property Number: 03-047123
 Description: HPEliteDesk Desktop G2
-Serial Numbers: 
+Serial Numbers: MXL123456
 Old Location: IT8
 New Location: Salvage
 Old Owner: Jon Mills
@@ -11,7 +11,7 @@ New Owner: Kenneth Osbourn
 Entry: 
 Property Number: 03-047123
 Description: HPEliteDesk Desktop G2
-Serial Numbers: 
+Serial Numbers: MXL123456
 Old Location: Helpdesk
 New Location: IT8
 Old Owner: Joseph Kimble
@@ -21,7 +21,7 @@ New Owner: Jon Mills
 Entry: 
 Property Number: 03-047123
 Description: HPEliteDesk Desktop G2
-Serial Numbers: 
+Serial Numbers: MXL123456
 Old Location: ST123
 New Location: Helpdesk
 Old Owner: John Doe
@@ -31,7 +31,7 @@ New Owner: Joseph Kimble
 Entry: 
 Property Number: 03-047123
 Description: HPEliteDesk Desktop G2
-Serial Numbers: 
+Serial Numbers: MXL123456
 Old Location: Helpdesk
 New Location: ST123
 Old Owner: Chris Rodgers
@@ -41,7 +41,7 @@ New Owner: John Doe
 Entry: 
 Property Number: 03-047123
 Description: HPElite Desktop G2
-Serial Numbers: 
+Serial Numbers: MXL123456
 Old Location: IT8
 New Location: Helpdesk
 Old Owner: Jon Mills
