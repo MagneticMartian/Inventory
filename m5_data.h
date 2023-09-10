@@ -1,5 +1,4 @@
 #include <string>
-#include <vector>
 #include <forward_list>
 
 #ifndef M5_DATA_H
