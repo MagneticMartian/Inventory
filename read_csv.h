@@ -5,9 +5,6 @@
 #ifndef READ_CSV_H
 #define READ_CSV_H
 
-//class EditCsv
-//{
-//    public:
 std::vector<m5Data> read_csv(std::string filename)
 {
     std::vector<m5Data> vect_m5d;
