@@ -1,0 +1,10 @@
+Property Number,Description,Source Location,Destination Location,Source Name,Source Date,Destination Name,Destination Date
+03-047123,HPElite Desktop G2,IT8,Helpdesk,Jon Mills,2023-01-02,Chris Rodgers,2023-01-02
+03-048214,CT-60 Scanner,IT8,Helpdesk,Jon Mills,2023-01-02,Kelby Hand,2023-01-02
+03-047123,HPEliteDesk Desktop G2,Helpdesk,ST123,Chris Rodgers,2023-01-03,John Doe,2023-01-03
+03-048563,HPEliteBook Laptop G9,IT8,Helpdesk,Jon Mills,2023-01-03,Sky Compton,2023-01-03
+03-048563,HPEliteBook Laptop G9,Helpdesk,Product Management,Sky Compton,2023-01-03,Jane Smith,2023-01-03
+03-048214,CT-60 Scanner,Helpdesk,ST025,Kelby Hand,2023-01-04,Joe Brown,2023-01-04
+03-047123,HPEliteDesk Desktop G2,ST123,Helpdesk,John Doe,2023-05-26,Joseph Kimble,2023-05-26
+03-047123,HPEliteDesk Desktop G2,Helpdesk,IT8,Joseph Kimble,2023-05-26,Jon Mills,2023-05-26
+03-047123,HPEliteDesk Desktop G2,IT8,Salvage,Jon Mills,2023-05-30,Kenneth Osbourn,2023-05-30
