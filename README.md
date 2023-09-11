@@ -1,5 +1,5 @@
 # Inventory
-A basic Historical Inventory Tracker
+A basic Historical Inventory Tracker. Generates a historical record in reverse chronological order based on the M5 data entered into a CSV file.
 ## Usage
 ```
 #> g++ main.cpp -o inventory
