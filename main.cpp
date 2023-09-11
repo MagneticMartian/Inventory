@@ -1,8 +1,16 @@
 #include <iostream>
 #include <getopt.h>
+#include <string>
+#include <algorithm>
 #include "m5_data.h"
 #include "read_csv.h"
 
+bool CompareDate(m5Data &a, m5Data &b)
+{
+    int val = a.sourceSign.Date.compare(b.sourceSign.Date);
+    if(val < 0) return false;
+    return true;
+}
 int main(int argc, char* argv[])
 {
     std::string fname = "AssetLog.csv";
@@ -20,6 +28,7 @@ int main(int argc, char* argv[])
     }
     m5Tracker m5t;
     std::vector<m5Data> data;
+    std::vector<m5Data> rel_data;
     data = read_csv(fname);
     switch(c_opts){
         case 0:
@@ -30,8 +39,10 @@ int main(int argc, char* argv[])
             break;
         case 'r':
             for(auto i : data){
-                if(i.propNum == optarg) m5t.TrackNewLoc(i);
+                if(i.propNum == optarg) rel_data.push_back(i);
             }
+            std::sort(rel_data.begin(),rel_data.end(),CompareDate);
+            for(auto j : rel_data) m5t.TrackNewLoc(j);
             m5t.GetHistory();
             break;
     }
