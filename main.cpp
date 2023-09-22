@@ -8,8 +8,7 @@
 bool CompareDate(m5Data &a, m5Data &b)
 {
     int val = a.sourceSign.Date.compare(b.sourceSign.Date);
-    if(val < 0) return false;
-    return true;
+    return ((val < 0) ? false : true);
 }
 int main(int argc, char* argv[])
 {
